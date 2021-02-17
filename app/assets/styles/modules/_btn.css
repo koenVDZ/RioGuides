@@ -6,7 +6,7 @@
   display: inline-block;
 
   &--pear {
-    background-color: $pear;
+    background-color: $honeyYellow;
   }
 
   &--large {
