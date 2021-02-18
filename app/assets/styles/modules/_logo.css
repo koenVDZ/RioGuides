@@ -1,0 +1,28 @@
+.site-logo {
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+
+  &__rioguides {
+    font-family: 'Sulphur Point', sans-serif;
+    color: $spanishGreen;
+    font-weight: 700;
+    font-size: 3.2rem;
+    text-shadow: 2px 2px 5px $phthaloGreen;
+  }
+
+  &__part-1 {
+    margin-right: .4rem;
+  }
+
+  &__business {
+    position: absolute;
+    font-family: 'Pacifico', cursive;
+    color: $maxYellowRed;
+    text-shadow: 1px 1px 5px $cafeNoir;
+    font-size: 2rem;
+    top:1.4rem;
+    left:8rem;
+  }
+}
