@@ -1,7 +1,63 @@
-.sitebar {
-  background-color: #FFF;
+.sidebar {
+  width: 6.4rem;
+  height: 100%;
+  background-color: $oldLace;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 21;
 
   &__picture-logo {
+    margin: 1.2rem 0;
     width: 40px;
+    cursor: pointer; 
+  }
+  &__menu-icon {
+    margin: 0 0.75rem;
+    cursor: pointer; 
+  }
+
+  &__line {
+    height: .2rem;
+    width: 2.5rem;
+    background-color: #222;
+    margin-bottom: .6rem;
+  }
+
+  &__line-1, &__line-3 {
+    width: 1.8rem;
+    transition: all .4s;
+  }
+
+  &__menu-icon:hover &__line {
+    width: 2.5rem;
+  }
+
+  &__social-icons-list {
+    list-style: none;
+    padding: 0;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &__social-link {
+    font-size: 2rem;
+    color: $phthaloGreen;
+    transition: color .3s;
+  }
+
+  &__social-link:hover {
+    color: $spanishGreen;
+  }
+
+  &__year {
+    margin-bottom: 1.2rem;
+    font-size: 1.5rem;
+    color: $cafeNoir;
   }
 }

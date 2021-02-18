@@ -1,7 +1,97 @@
 .navigation {
-  background-color: #FFF;
+  position: fixed;
+  left: -24rem;
+  width: 30rem;
+  height: 100%;
+  background: linear-gradient(to top, rgb(46, 32, 7), rgba(182, 132, 41, 0.8)) ,url(assets/images/copacabana_bg_400-1280.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: left .8s cubic-bezier(1, 0, 0, 1);
+  z-index: 20;
 
-  &__picture-logo {
-    width: 40px;
+  &__list {
+    list-style: none;
+    padding: 0;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
+
+  &__item {
+    position: relative;
+  }
+
+  &__link {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .5s;
+  }
+
+  &__link::before {
+    content: "";
+    width: 0rem;
+    height: .1rem;
+    background-color:$maximumYellow;
+    position: absolute;
+    top: 1rem;
+    left: -4rem;
+    transition: width .5s cubic-bezier(1, 0, 0, 1);
+  }
+
+  &__link::after {
+    content: "";
+    width: 0rem;
+    height: .1rem;
+    background-color: $maximumYellow;
+    position: absolute;
+    top: 1rem;
+    right: -4rem;
+    transition: width .5s cubic-bezier(1, 0, 0, 1);
+  }
+
+  &__link:hover {
+    color: $maximumYellow;
+  }
+
+  &__link:hover::before,
+  &__link:hover::after {
+    width: 3rem;
+  }
+
+  &__copyright {
+    color:#bbb;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.checkbox:checked ~ .navigation {
+  left: 6rem;
+}
+
+.checkbox:checked ~ .sidebar .sidebar__line-1 {
+  transform: rotate(-405deg) translate(-5px, 6px);
+  width: 2.5rem;
+}
+
+.checkbox:checked ~ .sidebar .sidebar__line-2 {
+  opacity: 0;
+}
+
+.checkbox:checked ~ .sidebar .sidebar__line-3 {
+  transform: rotate(405deg) translate(-5px, -6px);
+  width: 2.5rem;
+}
+
+.navigation .site-logo {
+  margin-top: 1.2rem;
 }
