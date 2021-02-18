@@ -1,0 +1,7 @@
+.navigation {
+  background-color: #FFF;
+
+  &__picture-logo {
+    width: 40px;
+  }
+}

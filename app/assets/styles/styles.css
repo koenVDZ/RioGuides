@@ -4,6 +4,7 @@
 @import "base/_global";
 @import "modules/_logo";
 @import "modules/_sidebar";
+@import "modules/_navigation";
 @import "modules/_large-hero";
 @import "modules/_btn";
 @import "modules/_wrapper";
