@@ -41,7 +41,7 @@
     color: $spanishGreen;
 
     &:hover {
-      color: $honeyYellow;
+      color: $pear;
     }
   }
 }
