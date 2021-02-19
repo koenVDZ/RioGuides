@@ -46,13 +46,19 @@
   }
 
   &__social-link {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: $phthaloGreen;
-    transition: color .3s;
   }
-
   &__social-link:hover {
     color: $spanishGreen;
+  }
+
+  &__social-link-li {
+    transition: all .2s;
+  }
+
+  &__social-link-li:hover {
+    transform: rotateZ(360deg);
   }
 
   &__year {
