@@ -1,8 +1,16 @@
 .site-logo {
   display: inline-block;
   position: relative;
-  margin: 0;
+  margin: 0 0 0 8rem;
   padding: 0;
+
+  @mixin atXlarge {
+    margin: 0;
+  }
+
+  &.is-current-link {
+    color: #fabb69;
+  }
 
   &__rioguides {
     font-family: 'Sulphur Point', sans-serif;

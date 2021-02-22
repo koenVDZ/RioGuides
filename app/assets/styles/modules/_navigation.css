@@ -34,6 +34,10 @@
     text-transform: uppercase;
     text-decoration: none;
     transition: color .5s;
+    &.is-current-link {
+      color:$maximumYellow;
+    }
+  
   }
 
   &__link::before {
