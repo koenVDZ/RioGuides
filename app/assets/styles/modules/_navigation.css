@@ -3,7 +3,7 @@
   left: -24rem;
   width: 30rem;
   height: 100%;
-  background: linear-gradient(to top, rgb(46, 32, 7), rgba(182, 132, 41, 0.8)) ,url(assets/images/copacabana_bg_400-1280.jpg);
+  background: linear-gradient(to top, rgba(3, 5, 3, 0.87), rgba(32, 41, 25, 0.7)) ,url(assets/images/coding_bg_400-1280.jpg);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -98,4 +98,5 @@
 
 .navigation .site-logo {
   margin-top: 1.2rem;
+  margin-left: 0;
 }

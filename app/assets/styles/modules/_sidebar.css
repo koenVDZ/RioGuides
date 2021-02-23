@@ -1,5 +1,5 @@
 .sidebar {
-  width: 6.4rem;
+  width: 6.0rem;
   height: 100%;
   background-color: $oldLace;
   position: fixed;
@@ -10,7 +10,7 @@
   z-index: 21;
 
   &__picture-logo {
-    margin: 1.2rem 0;
+    margin: 1rem 0;
     width: 40px;
     cursor: pointer; 
   }
