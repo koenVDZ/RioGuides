@@ -37,15 +37,15 @@
 
   a {
     color: #FFF;
-    font-weight: 300;
+    font-weight: 400;
     text-decoration: none;
     display: block;
     padding: 5px 8px;
-    font-size: .8rem;
-    background-color: rgba($spanishGreen, .5);
+    font-size: 1.2rem;
+    background-color: rgba(10, 44, 4, 0.85);
 
     @mixin atMedium {
-      font-size: 1rem;
+      font-size: 1.4rem;
       padding: 12px 0;
       background-color: transparent;
 

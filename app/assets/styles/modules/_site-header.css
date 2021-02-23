@@ -1,19 +1,18 @@
 .site-header {
   display: inline;
-  padding: 10px 0;
+  padding: 7px 0;
   position: absolute;
   width: 100%;
   z-index: 2;
   transition: background-color .3s ease-out;
 
   &--is-expanded {
-    background-color: rgba($spanishGreen, .55);
+    background-color: rgba(223, 219, 15, .3);
   }
   
   @mixin atMedium {
     position: fixed;
-    background-color: rgba($spanishGreen, .3);
-
+  
     &--dark {
       background-color: rgba(61, 60, 6, 0.85);
     }
@@ -25,6 +24,10 @@
     }
   }
 
+  &__btn-container a {
+    font-size: 1.6rem;
+  }
+
   &__logo {
     position: absolute;
     top: 0;
@@ -32,20 +35,56 @@
     transition: transform .3s ease-out;
     transform: translateX(-50%) scale(.8);
     transform-origin: 50% 0;
-    padding: 25px 36px;
+    padding: 1rem 8rem;
 
     @mixin atMedium {
       left: auto;
       transform: translateX(0);
 
       .site-header--dark & {
-        transform: scale(.55);
+        transform: scale(.85);
       }
     }
   }
 
   &__logo__graphic {
     text-indent: -9999px;
+  }
+
+  &__rg-logo {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+  
+    @mixin atXlarge {
+      margin: 0;
+    }
+  
+    &.is-current-link {
+      color: #fabb69;
+    }
+  
+    &__rioguides {
+      font-family: 'Sulphur Point', sans-serif;
+      color: $spanishGreen;
+      font-weight: 700;
+      font-size: 3.2rem;
+      text-shadow: 2px 2px 5px $phthaloGreen;
+    }
+  
+    &__part-1 {
+      margin-right: .4rem;
+    }
+  
+    &__business {
+      position: absolute;
+      font-family: 'Pacifico', cursive;
+      color: $maxYellowRed;
+      text-shadow: 1px 1px 5px $cafeNoir;
+      font-size: 2rem;
+      top:1.4rem;
+      left:8rem;
+    }
   }
 
   &__menu-icon {
@@ -132,40 +171,5 @@
       z-index: 1;
       transform: scale(1);
     }
-  }
-}
-.site-logo {
-  display: inline-block;
-  position: relative;
-  padding: 0;
-
-  @mixin atXlarge {
-    margin: 0;
-  }
-
-  &.is-current-link {
-    color: #fabb69;
-  }
-
-  &__rioguides {
-    font-family: 'Sulphur Point', sans-serif;
-    color: $spanishGreen;
-    font-weight: 700;
-    font-size: 3.2rem;
-    text-shadow: 2px 2px 5px $phthaloGreen;
-  }
-
-  &__part-1 {
-    margin-right: .4rem;
-  }
-
-  &__business {
-    position: absolute;
-    font-family: 'Pacifico', cursive;
-    color: $maxYellowRed;
-    text-shadow: 1px 1px 5px $cafeNoir;
-    font-size: 2rem;
-    top:1.4rem;
-    left:8rem;
   }
 }
