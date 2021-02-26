@@ -1,4 +1,7 @@
 .generic-content-container {
+  body {
+    background-color: black;
+  }
   
   p {
     font-weight: 300;
@@ -6,7 +9,7 @@
     margin: 0 0 1.8rem 0;
 
     @mixin atSmall {
-      font-size: 1.125rem;
+      font-size: 1.6rem;
     }
   }
 

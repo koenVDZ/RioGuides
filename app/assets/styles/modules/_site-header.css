@@ -7,14 +7,14 @@
   transition: background-color .3s ease-out;
 
   &--is-expanded {
-    background-color: rgba(223, 219, 15, .3);
+    background-color: rgba(255,191,70, 0.5);
   }
   
   @mixin atMedium {
     position: fixed;
   
     &--dark {
-      background-color: rgba(61, 60, 6, 0.85);
+      background-color: rgba(255,191,70, 0.8);
     }
   }
 
@@ -31,6 +31,7 @@
   &__logo {
     position: absolute;
     top: 0;
+    margin-left: 3rem;
     left: 50%;
     transition: transform .3s ease-out;
     transform: translateX(-50%) scale(.8);
@@ -61,14 +62,14 @@
     }
   
     &.is-current-link {
-      color: #fabb69;
+      color: $cafeNoir;
     }
   
     &__rioguides {
       font-family: 'Sulphur Point', sans-serif;
       color: $spanishGreen;
       font-weight: 700;
-      font-size: 3.2rem;
+      font-size: 4.2rem;
       text-shadow: 2px 2px 5px $phthaloGreen;
     }
   
@@ -81,9 +82,9 @@
       font-family: 'Pacifico', cursive;
       color: $maxYellowRed;
       text-shadow: 1px 1px 5px $cafeNoir;
-      font-size: 2rem;
-      top:1.4rem;
-      left:8rem;
+      font-size: 2.6rem;
+      top:1.8rem;
+      left:10.5rem;
     }
   }
 
@@ -102,7 +103,7 @@
       left: 0;
       width: 20px;
       height: 3px;
-      background-color: #FFF;
+      background-color: $spanishGreen;
       transform-origin: 0 0;
       transition: transform .3s ease-out;
     }
@@ -113,7 +114,7 @@
       left: 0;
       width: 20px;
       height: 3px;
-      background-color: #FFF;
+      background-color: $spanishGreen;
       transition: all .3s ease-out;
       transform-origin: 0 50%;
     }
@@ -125,7 +126,7 @@
       left: 0;
       width: 20px;
       height: 3px;
-      background-color: #FFF;
+      background-color: $spanishGreen;
       transform-origin: 0 100%;
       transition: transform .3s ease-out;
     }
@@ -151,6 +152,7 @@
   }
 
   &__menu-content {
+    margin-left: 6rem;
     opacity: 0;
     transform: scale(1.2);
     transition: all .3s ease-out;

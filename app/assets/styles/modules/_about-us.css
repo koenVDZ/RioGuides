@@ -1,4 +1,5 @@
-.headline {
+.about-us {
+  margin-left: 6rem;
   font-size: 1.9rem;
   font-weight: 300;
   color: $spanishGreen;
@@ -7,28 +8,28 @@
     font-size: 2.875rem;
   }
 
-  &--centered {
+  &__centered {
     text-align: center;
   }
 
-  &--pear {
-    color: $pear;
+  &__cafenoir {
+    color: $cafeNoir;
   }
 
-  &--small {
+  &__small {
     font-size: 1.2rem;
     @mixin atSmall {
       font-size: 1.875rem;
     }
   }
 
-  &--narrow {
+  &__narrow {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  &--light {
+  &__light {
     font-weight: 100;
   }
 
@@ -36,15 +37,20 @@
     font-weight: 400;
   }
 
-  &--b-margin-small {
-    margin-bottom: .5em;
+  &__b-margin-small {
+    margin-bottom: .4rem;
   }
 
-  &--b-margin-large {
-    margin-bottom: 1.6em;
+  &__t-margin-large {
+    margin-bottom: 3rem;
   }
 
-  &--no-t-margin {
+  &__b-margin-large {
+    margin-bottom: 3.0rem;
+  }
+
+  &__no-margin {
     margin-top: 0;
+    margin-left: 0;
   }
 }

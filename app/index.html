@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<!-- Head -->
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- Google Font Logo RioGuides -->
@@ -19,7 +19,9 @@
   <meta name="keywords" content="Web design, Web Development, Web maintenance">
   <meta name="description" content="Custom web development.">
 </head>
+<!-- End Head -->
 
+<!-- Start Body -->
 <body>
 
   <!-- side navbar  -->
@@ -77,13 +79,13 @@
             <a href="#home" id="home-link" class="navigation__link">home</a>
           </li>
           <li class="navigation__item">
-            <a href="#about-us" id="about-us-link" class="navigation__link">about us</a>
+            <a href="#about-us" id="about-us-link" class="navigation__link">About Us</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#services" id="services-link" class="navigation__link">Services</a>
           </li>
           <li class="navigation__item">
             <a href="#projects" id="projects-link" class="navigation__link">Projects</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#contact" id="contact-link" class="navigation__link">contact</a>
           </li>
         </ul>
       </nav>
@@ -114,14 +116,14 @@
 
       <div class="site-header__menu-content">
         <div class="site-header__btn-container">
-          <a href="#" class="btn open-modal">Get in Touch</a>
+          <a href="#" class="btn btn--large open-modal">Get in Touch</a>
         </div>
         <nav class="primary-nav primary-nav--pull-right">
           <ul>
-            <li><a href="#home" id="home-link">Home..</a></li>
+            <li><a href="#home" id="home-link">Home</a></li>
             <li><a href="#about-us" id="about-us-link">About Us</a></li>
+            <li><a href="#services" id="contact-link">Services</a></li>
             <li><a href="#projects" id="projects-link">Projects</a></li>
-            <li><a href="#contact" id="contact-link">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -129,53 +131,55 @@
   </header>
   <!-- End Site Header -->
 
+  <!-- Start Large Hero -->
   <div id="home" class="large-hero" data-matching-link="#home-link">
 
     <picture>
-      <source srcset="assets/images/blackboard_lamp_1980x980.jpg 1920w, assets/images/blackboard_lamp_3900x1960.jpg 3840w"
+      <source srcset="assets/images/blackboard_lamp_1920x980.jpg 1920w, assets/images/blackboard_lamp_3840x1960.jpg 3840w"
         media="(min-width: 1380px)">
-      <source srcset="assets/images/blackboard_lamp_1363x733.jpg 1380w, assets/images/blackboard_lamp_2664x1466.jpg 2760w"
+      <source srcset="assets/images/blackboard_lamp_1303x733.jpg 1380w, assets/images/blackboard_lamp_2604x1466.jpg 2760w"
         media="(min-width: 990px)">
-      <source srcset="assets/images/blackboard_lamp_1050x900.jpg 990w, assets/images/blackboard_lamp_2040x1800.jpg 1980w"
+      <source srcset="assets/images/blackboard_lamp_990x900.jpg 990w, assets/images/blackboard_lamp_1980x1800.jpg 1980w"
         media="(min-width: 640px)">
-      <img srcset="assets/images/blackboard_lamp_700x654.jpg 640w, assets/images/blackboard_lamp_1340x1308.jpg 1280w"
+      <img srcset="assets/images/blackboard_lamp_640x654.jpg 640w, assets/images/blackboard_lamp_1280x1308.jpg 1280w"
         alt="Blackboard with Ideas - Lamp in the middle" class="large-hero__image">
     </picture>
 
     <div class="large-hero__text-content">
       <div class="wrapper">
-        <h1 class="large-hero__title">Lorem ipsumq</h1>
-        <h2 class="large-hero__subtitle">Lorem, ipsum dolor!</h2>
-        <p class="large-hero__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, sed assumenda
-          optio dolorum tempore fuga..</p>
-        <p><a href="#" class="btn btn--pear btn--large open-modal">Get Started Today</a></p>
+        <h1 class="large-hero__title">Web Solutions</h1>
+        <h2 class="large-hero__subtitle">Consultancy, Design and Maintenance!</h2>
+        <p class="large-hero__description">Thinking of a new website?</p>
+        <p class="large-hero__description">You want to start a store online?</p>
+        <p class="large-hero__description">You want to update your existing website?</p>
+        <p class="large-hero__description">You do not know where to start?</p>
+        <p class="large-hero__description">You need a <strong>guide</strong> through this jungle?</p>
+        <p><a href="#" class="btn btn--hero btn--large open-modal">Get Started Today</a></p>
       </div>
     </div>
   </div>
+  <!-- End Large Hero --> 
 
-  <div id="contact" class="page-section" data-matching-link="#contact-link">
+  <!-- start of About Section -->
+  <div id="about-us" class="about-us page-section" data-matching-link="#about-us-link">
     <div class="wrapper">
-      <h2 class="headline headline--centered headline--light headline--b-margin-small">The first trip we planned
-        <strong>was our own.</strong></h2>
+      <h2 class="about-us about-us__centered about-us__light about-us__b-margin-small about-us__t-margin-large">You tell us your dreams and
+        <strong>we will make it happen!.</strong></h2>
       <h3
-        class="headline headline--centered headline--pear headline--small headline--narrow headline--light headline--b-margin-large">
-        Ever since, we&rsquo;ve been working to make travel <strong>better for everyone.</strong></h3>
-
-      <!-- <div class="wrapper wrapper--medium wrapper--b-margin">
-        <img class="lazyload" sizes="(min-width: 970px) 976px, 100vw" data-srcset="assets/images/first-trip-low-res.jpg 565w, assets/images/first-trip.jpg 976w, assets/images/first-trip-hi-dpi.jpg 1952w" alt="Couple walking down a street.">
-      </div> -->
+        class="about-us about-us__centered about-us__cafenoir about-us__small about-us__light about-us__b-margin-large">
+        Ever since, I&rsquo;ve started working, I have kept one goal above all: <strong>customer satisfaction.</strong></h3>
 
       <div class="row row--gutters">
         <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
-          <!-- <picture>
-            <source sizes="404px" data-srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w" media="(min-width: 1020px)">
-            <source sizes="320px" data-srcset="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-portrait-hi-dpi.jpg 764w" media="(min-width: 800px)">
-            <img class="lazyload" data-srcset="assets/images/our-start-landscape.jpg 800w, assets/images/our-start-landscape-hi-dpi.jpg 1600w" alt="Our founder, Jane Doe">
-          </picture> -->
+          <picture>
+            <source sizes="404px" data-srcset="assets/images/koenraad_vandezande_about_me_404x531.jpg 404w, assets/images/koenraad_vandezande_about_me_808x1062.jpg 808w" media="(min-width: 1020px)">
+            <source sizes="320px" data-srcset="assets/images/koenraad_vandezande_about_me_382x870.jpg 382w, assets/images/koenraad_vandezande_about_me_764x1740.jpg 764w" media="(min-width: 800px)">
+            <img class="lazyload" data-srcset="assets/images/koenraad_vandezande_about_me_800x491.jpg 800w, assets/images/koenraad_vandezande_about_me_1600x982.jpg 1600w" alt="Our founder, Koenraad Vandezande">
+          </picture>
         </div>
         <div class="row__medium-8 row__medium-8--smaller">
           <div class="generic-content-container">
-            <h2 class="headline headline--no-t-margin">Here&rsquo;s how we got started&hellip;</h2>
+            <h2 class="about-us about-us__no-margin">Here&rsquo;s how we got started&hellip;</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
               dolore magna aliqua. Ut enim ad minim veniam, <a href="#">quis nostrud exercitation</a> ullamco laboris
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -193,8 +197,10 @@
       </div>
     </div>
   </div>
+  <!-- End of About Section -->
 
-  <div id="about-us" class="page-section page-section--blue" data-matching-link="#about-us-link">
+  <!-- Start of Services Section -->
+  <div id="services" class="page-section page-section--blue" data-matching-link="#services-link">
     <div class="wrapper">
       <h2 class="section-title"><img class="section-title__icon" src="assets/images/icons/star.svg"> Our
         <strong>Features</strong></h2>
@@ -237,6 +243,7 @@
       </div>
     </div>
   </div>
+  <!-- End of Services Section -->
 
   <div id="projects" class="page-section page-section--no-b-padding-until-large page-section--testimonials" data-matching-link="#projects-link">
     <div class="wrapper wrapper--no-padding-until-large">
@@ -297,8 +304,8 @@
 
   <footer class="site-footer">
     <div class="wrapper">
-      <p><span class="site-footer__text">Copyright &copy; 2019 Clear View Escapes. All rights reserved.</span> <a
-          href="#" class="btn btn--pear open-modal">Get in Touch</a></p>
+      <p><span class="site-footer__text">Copyright &copy; 2021 RioGuides Business. All rights reserved.</span> <a
+          href="#" class="btn btn--large btn--yellow open-modal">Get in Touch</a></p>
     </div>
   </footer>
 
