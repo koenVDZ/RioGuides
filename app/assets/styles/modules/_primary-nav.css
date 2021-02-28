@@ -36,13 +36,14 @@
   }
 
   a {
-    color: $spanishGreen;
+    color: $star-command-blue;
     font-weight: 400;
     text-decoration: none;
     display: block;
     padding: 5px 8px;
     font-size: 1.2rem;
-    background-color: rgba(10, 44, 4, 0.85);
+    background-color: rgba(202, 240, 248, .85);
+
 
     @mixin atMedium {
       font-size: 1.4rem;
@@ -50,7 +51,7 @@
       background-color: transparent;
 
       &.is-current-link {
-        color: #fabb69;
+        color: $navy-blue;
       }
     }
   }

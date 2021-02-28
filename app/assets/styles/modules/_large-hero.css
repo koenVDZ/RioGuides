@@ -1,6 +1,6 @@
 .large-hero {
   margin-left: 6rem;
-  border-bottom: 10px solid $spanishGreen;
+  border-bottom: 10px solid $star-command-blue;
   position: relative;
 
   &__image {
@@ -23,7 +23,7 @@
   }
 
   &__title {
-    color: $spanishGreen;
+    color: $star-command-blue;
     font-weight: 300;
     text-shadow: .1rem .1rem .2rem #000;
     font-size: 3rem;
@@ -36,7 +36,7 @@
 
   &__subtitle {
     font-weight: 300;
-    color: $spanishGreen;
+    color: $star-command-blue;
     text-shadow: .1rem .1rem .2rem #000;
     font-size: 2rem;
     margin: 0 0 4rem 0;
@@ -48,7 +48,7 @@
   }
 
   &__description {
-    color: $cafeNoir;
+    color: $navy-blue;
     font-size: 1.6rem;
     font-weight: 300;
     max-width: 40rem;

@@ -38,10 +38,10 @@
     transform: scaleX(1.2);
     transform-origin: 100% 0;
     cursor: pointer;
-    color: $spanishGreen;
+    color: $star-command-blue;
 
     &:hover {
-      color: $pear;
+      color: $cerulean-crayola;
     }
   }
 }

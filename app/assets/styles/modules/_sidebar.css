@@ -1,7 +1,7 @@
 .sidebar {
   width: 6.0rem;
   height: 100%;
-  background-color: $oldLace;
+  background-color: $powder-blue;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -12,11 +12,15 @@
   &__picture-logo {
     margin: 1rem 0;
     width: 40px;
-    cursor: pointer; 
+    cursor: pointer;
+    border-color: $cerulean-crayola;
+    border-style: solid;
+    border-width: .1rem;
+    border-radius: 45px;
   }
   &__menu-icon {
     margin: 0 0.75rem;
-    cursor: pointer; 
+    cursor: pointer;
   }
 
   &__line {
@@ -47,10 +51,10 @@
 
   &__social-link {
     font-size: 2.5rem;
-    color: $phthaloGreen;
+    color: $navy-blue;
   }
   &__social-link:hover {
-    color: $spanishGreen;
+    color: $star-command-blue;
   }
 
   &__social-link-li {
@@ -64,6 +68,6 @@
   &__year {
     margin-bottom: 1.2rem;
     font-size: 1.5rem;
-    color: $cafeNoir;
+    color: $navy-blue;
   }
 }

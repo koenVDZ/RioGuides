@@ -35,7 +35,7 @@
     text-decoration: none;
     transition: color .5s;
     &.is-current-link {
-      color:$maximumYellow;
+      color:$sky-blue-crayola;
     }
   
   }
@@ -44,7 +44,7 @@
     content: "";
     width: 0rem;
     height: .1rem;
-    background-color:$maximumYellow;
+    background-color:$sky-blue-crayola;
     position: absolute;
     top: 1rem;
     left: -4rem;
@@ -55,7 +55,7 @@
     content: "";
     width: 0rem;
     height: .1rem;
-    background-color: $maximumYellow;
+    background-color: $sky-blue-crayola;
     position: absolute;
     top: 1rem;
     right: -4rem;
@@ -63,7 +63,7 @@
   }
 
   &__link:hover {
-    color: $maximumYellow;
+    color: $sky-blue-crayola;
   }
 
   &__link:hover::before,

@@ -1,13 +1,13 @@
 .btn {
-  background-color: $spanishGreen;
+  background-color: $star-command-blue;
   color: #FFF;
   text-decoration: none;
   padding: .75rem 1.2rem;
   display: inline-block;
 
-  &--yellow {
-    background-color: $maxYellowRed;
-    color: $spanishGreen;
+  &__powder-blue {
+    background-color: $powder-blue;
+    color: $star-command-blue;
     font-weight: 500;
     font-size: 1.8rem;
   }
@@ -18,10 +18,10 @@
 
   &--large {
     padding: 1.1rem 1.9rem;
-    border-radius: .5rem;
+    border-radius: .4rem;
 
     @mixin atSmall {
-      font-size: 1.25rem;
+      font-size: 1.6rem;
     }
   }
 

@@ -6,7 +6,11 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
   color: #333;
+  @mixin atSmall {
+    font-size: 1.6rem;
+  }
 }
 
 img {
@@ -18,6 +22,13 @@ img {
   box-sizing: border-box;
 }
 
+h2 {
+  font-size: 2.6rem;
+  @mixin atSmall {
+    font-size: 3.2rem;
+  }
+}
+
 a {
-  color: $honeyYellow;
+  color: $star-command-blue;
 }

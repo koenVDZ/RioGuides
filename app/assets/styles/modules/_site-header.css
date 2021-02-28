@@ -7,14 +7,14 @@
   transition: background-color .3s ease-out;
 
   &--is-expanded {
-    background-color: rgba(255,191,70, 0.5);
+    background-color: rgba(202, 240, 248, .85)
   }
   
   @mixin atMedium {
     position: fixed;
   
     &--dark {
-      background-color: rgba(255,191,70, 0.8);
+      background-color: rgba(202, 240, 248, .7);
     }
   }
 
@@ -62,15 +62,15 @@
     }
   
     &.is-current-link {
-      color: $cafeNoir;
+      color: $navy-blue;
     }
   
     &__rioguides {
       font-family: 'Sulphur Point', sans-serif;
-      color: $spanishGreen;
+      color: $star-command-blue;
       font-weight: 700;
       font-size: 4.2rem;
-      text-shadow: 2px 2px 5px $phthaloGreen;
+      text-shadow: 2px 2px 5px $navy-blue;
     }
   
     &__part-1 {
@@ -80,8 +80,8 @@
     &__business {
       position: absolute;
       font-family: 'Pacifico', cursive;
-      color: $maxYellowRed;
-      text-shadow: 1px 1px 5px $cafeNoir;
+      color: $sky-blue-crayola-2;
+      text-shadow: 1px 1px 5px $navy-blue;
       font-size: 2.6rem;
       top:1.8rem;
       left:10.5rem;
@@ -103,7 +103,7 @@
       left: 0;
       width: 20px;
       height: 3px;
-      background-color: $spanishGreen;
+      background-color: $star-command-blue;
       transform-origin: 0 0;
       transition: transform .3s ease-out;
     }
@@ -114,7 +114,7 @@
       left: 0;
       width: 20px;
       height: 3px;
-      background-color: $spanishGreen;
+      background-color: $star-command-blue;
       transition: all .3s ease-out;
       transform-origin: 0 50%;
     }
@@ -126,7 +126,7 @@
       left: 0;
       width: 20px;
       height: 3px;
-      background-color: $spanishGreen;
+      background-color: $star-command-blue;
       transform-origin: 0 100%;
       transition: transform .3s ease-out;
     }

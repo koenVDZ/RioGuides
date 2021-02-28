@@ -12,13 +12,8 @@
     font-weight: 500;
   }
 
-  &--blue {
-    color: $spanishGreen;
-  }
-
-  &--less-margin {
-    margin-bottom: 1.3rem;
-    margin-top: 0;
+  &__shadow {
+    text-shadow: .1rem .1rem .2rem #000;
   }
 
   &__icon {
@@ -27,7 +22,7 @@
     margin-right: auto;
     margin-bottom: .6rem;
     font-size: 5rem;
-    color: $maxYellowRed;
+    color: $powder-blue;
 
     @mixin atSmall {
       position: relative;
@@ -37,6 +32,10 @@
       margin-bottom: 0;
       display: inline-block;
     }
+  }
+
+  &__green {
+    color: $star-command-blue;
   }
 
 }
