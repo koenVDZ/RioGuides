@@ -1,7 +1,7 @@
 .social-icons {
   text-align: center;
 
-  &__icon {
+  &__icon-link {
     background-color: $cerulean-crayola;
     display: inline-block;
     width: 33%;
@@ -13,7 +13,9 @@
       width: 72px;
     }
 
-    img {
+    i {
+      font-size: 4rem;
+      color: $powder-blue;
       display: block;
       position: absolute;
       top: 50%;
