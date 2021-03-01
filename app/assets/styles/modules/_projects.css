@@ -4,6 +4,7 @@
   padding: 0 18px 1px 18px;
   margin-bottom: 1rem;
   text-align: justify;
+  position:relative;
 
   @mixin atLarge {
     margin-bottom: 0;
@@ -19,9 +20,11 @@
   }
 
   &__functions {
+    margin-bottom: 8.2rem;
     font-size:1.2rem;
 
     @mixin atSmall {
+      margin-bottom: 8.2rem;
       font-size: 1.2rem;
     }
   }
@@ -30,20 +33,11 @@
     margin-bottom: 0;
   }
 
-  &__tools {
-    text-align: center;
-    background-color: $sky-blue-crayola-2;
-    font-size: 3rem;
-    color: $star-command-blue;
-    margin: 0 0 1.6rem 0;
-    padding: .8rem;
-  }
-
   &__photo {
     border-radius: .4rem;
     overflow: hidden;
     width: 300px;
-    height: 150px;
+    height:200px;
     margin: 0 auto -80px auto;
     position: relative;
     top: -80px;
@@ -63,4 +57,23 @@
     font-weight: 400;
     margin: .25rem 0 1rem 0;
   }
+
+  &__tools {
+    width: 300px;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 119, 182, .5);
+    font-size: 2.0rem;
+    color: rgba(255, 255, 255, .7);
+    padding: .4rem 0;
+    top: .9rem;
+    left:50%;
+    margin-top: 8rem;
+    margin-left: -150px;
+    border-style: solid;
+    border-radius: 0 0 .4rem .4rem;
+    border-width: .1rem;
+    border-color: rgba(0, 119, 182, .1);
+  }
+
 }

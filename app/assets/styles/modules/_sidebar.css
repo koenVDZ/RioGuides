@@ -1,7 +1,7 @@
 .sidebar {
   width: 6.0rem;
   height: 100%;
-  background-color: $powder-blue;
+  background-color: $sky-blue-crayola-2;
   position: fixed;
   display: flex;
   flex-direction: column;

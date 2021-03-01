@@ -5,7 +5,7 @@
     padding: 4.5rem 0;
   }
   
-  &--no-b-padding-until-medium {
+  &__no-b-padding-until-medium {
     padding-bottom: 0;
 
     @mixin atMedium {
@@ -13,7 +13,7 @@
     }
   }
 
-  &--no-b-padding-until-large {
+  &__no-b-padding-until-large {
     padding-bottom: 0;
 
     @mixin atLarge {
@@ -21,16 +21,16 @@
     }
   }
 
-  &--blue {
+  &__blue {
     background-color: $star-command-blue;
     color: #FFF;
   }
 
-  &--testimonials {
+  &__projects {
     background-color: #e0e6ef;
 
     @mixin atLarge {
-      background: #fffe;
+      background: #eee;
     }
   }
 

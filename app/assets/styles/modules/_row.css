@@ -2,36 +2,40 @@
 
   @mixin clearfix;
 
-  &--t-padding {
+  &__t-padding {
     padding-top: 80px;
   }
 
-  &--gutters {
+  &__gutters {
     margin-right: -65px;
   }
 
-  &--gutters-large {
+  &__gutters-large {
     margin-right: -100px;
   }
 
-  &--gutters-small {
+  &__gutters-small {
     margin-right: -45px;
   }
 
-  &--gutters > div {
+  &__gutters > div {
     padding-right: 65px;
   }
 
-  &--gutters-large > div {
+  &__gutters-large > div {
     padding-right: 100px;
   }
 
-  &--gutters-small > div {
+  &__gutters-small > div {
     padding-right: 45px;
   }
 
   &__b-margin-until-medium {
     margin-bottom: 1rem;
+  }
+
+  &__projects {
+    margin-top: 9.2rem;
   }
 
   @mixin atMedium {
@@ -94,10 +98,14 @@
       width: 63%;
     }
 
+    &__projects {
+      margin-top: 0;
+    }
+
   }
   
   /* Begin Equal Height Rules */
-  &--equal-height-at-medium {
+  &__equal-height-at-medium {
     @mixin atMedium {
       display: flex;
     }
@@ -109,7 +117,7 @@
 
   }
 
-  &--equal-height-at-large {
+  &__equal-height-at-large {
     @mixin atLarge {
       display: flex;
     }
