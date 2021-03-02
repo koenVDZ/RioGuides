@@ -34,10 +34,6 @@
     text-transform: uppercase;
     text-decoration: none;
     transition: color .5s;
-    &.is-current-link {
-      color:$sky-blue-crayola;
-    }
-  
   }
 
   &__link::before {
