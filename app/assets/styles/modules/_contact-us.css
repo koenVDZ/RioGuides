@@ -2,13 +2,9 @@
   background-color: rgba(202, 240, 248, 0.95);
   margin-left: 6rem;
 
-  &__header2 {
-    margin: 0;
-  }
-
   &__description {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     font-weight: 300;
     line-height: 1.65;
   }

@@ -33,6 +33,14 @@
     }
   }
 
+  &__m60 {
+    margin-left: 6rem;
+
+    @mixin atMedium {
+      margin-left: 0;
+    }
+  }
+  
   &__blue {
     color: $star-command-blue;
   }
