@@ -1,339 +1,653 @@
 <!DOCTYPE html>
 <html>
-<!-- Head -->
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Google Font Logo RioGuides -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">  <!-- Font Awesome -->
-  <!-- FontAwesome Kit -->
-  <script src="https://kit.fontawesome.com/fe289ad137.js" crossorigin="anonymous"></script>
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-  <link rel="manifest" href="assets/images/favicon/site.webmanifest">
-  <!-- Title -->
-  <title>RioGuides</title>
-  <!-- Meta Data -->
-  <meta name="keywords" content="Web design, Web Development, Web maintenance">
-  <meta name="description" content="Custom web development.">
-</head>
-<!-- End Head -->
+  <!-- Head -->
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-5S4Y23LZJK");
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5ZG2PFD");
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Google Font Logo RioGuides -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&family=Sulphur+Point:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <!-- FontAwesome Kit -->
+    <script
+      src="https://kit.fontawesome.com/fe289ad137.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest" />
+    <!-- Title -->
+    <title>RioGuides</title>
+    <!-- Meta Data -->
+    <meta
+      name="keywords"
+      content="Web design, Web Development, Web maintenance, Analisys, Maintenance, CSS, HTML, React, Javascrit, PHP, Bootstrap, Joomla, WordPress"
+    />
+    <meta
+      name="description"
+      content="Custom web development by RioGuides.biz. We offer consultancy, analysis, webdevelopment of web pages, websites and web applications. We will help you on setup your website from A through Z. Service is what we strive for the most."
+    />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-5S4Y23LZJK"
+    ></script>
+  </head>
+  <!-- End Head -->
 
-<!-- Start Body -->
-<body>
+  <!-- Start Body -->
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MNFGPXD"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- side navbar  -->
+    <div class="navbar">
+      <input type="checkbox" class="checkbox" id="click" hidden />
 
-  <!-- side navbar  -->
-  <div class="navbar">
-
-    <input type="checkbox" class="checkbox" id="click" hidden>
-
-    <!-- sidebar -->
-    <div class="sidebar">
-      <div>
-        <div class="sidebar__picture">
-          <a href="https://rioguides.biz"><img src="assets/images/favicon/apple-touch-icon.png" alt="RioGuides Logo" class="sidebar__picture-logo"></a>
-        </div>
-  
-        <label for="click">
-          <div class="sidebar__menu-icon">
-            <div class="sidebar__line sidebar__line-1"></div>
-            <div class="sidebar__line sidebar__line-2"></div>
-            <div class="sidebar__line sidebar__line-3"></div>
+      <!-- sidebar -->
+      <div class="sidebar">
+        <div>
+          <div class="sidebar__picture">
+            <a href="https://rioguides.biz"
+              ><img
+                src="assets/images/favicon/apple-touch-icon.png"
+                alt="RioGuides Logo"
+                class="sidebar__picture-logo"
+            /></a>
           </div>
-        </label>
-      </div>
 
-      <ul class="sidebar__social-icons-list">
-        <li class="sidebar__social-link-li">
-          <a href="mailto:koen@rioguides.biz" class="sidebar__social-link"><i class="fal fa-envelope"></i></a>
-        </li>
-        <li class="sidebar__social-link-li">
-          <a href="https://wa.me/5521985906685" target="_blank" class="sidebar__social-link"><i class="fab fa-whatsapp"></i></a>
-        </li>
-        <li class="sidebar__social-link-li">
-          <a href="https://www.instagram.com/rioguides.biz/" target="_blank" class="sidebar__social-link"><i class="fab fa-instagram"></i></a>
-        </li>
-      </ul>
-
-      <div>
-        <p class="sidebar__year">&copy;2021</p>
-      </div>
-    </div>
-    <!-- end of sidebar -->
-
-    <!-- navigation -->
-    <div class="navigation">
-      <div class="navigation__header">
-        <div class="site-header__rg-logo">
-          <span class="site-header__rg-logo__rioguides site-header__rg-logo__part-1">RIO</span><span
-            class="site-header__rg-logo__rioguides site-header__rg-logo__part-2">GUIDES</span>
-          <div class="site-header__rg-logo__business">Business</div>
+          <label for="click">
+            <div class="sidebar__menu-icon">
+              <div class="sidebar__line sidebar__line-1"></div>
+              <div class="sidebar__line sidebar__line-2"></div>
+              <div class="sidebar__line sidebar__line-3"></div>
+            </div>
+          </label>
         </div>
-      </div>
 
-      <nav class="side-nav">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="#home" id="home-link" class="navigation__link">home</a>
+        <ul class="sidebar__social-icons-list">
+          <li class="sidebar__social-link-li">
+            <a href="mailto:koen@rioguides.biz" class="sidebar__social-link"
+              ><i class="fal fa-envelope"></i
+            ></a>
           </li>
-          <li class="navigation__item">
-            <a href="#about-us" id="about-us-link" class="navigation__link">About Us</a>
+          <li class="sidebar__social-link-li">
+            <a
+              href="https://wa.me/5521985906685"
+              target="_blank"
+              class="sidebar__social-link"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
           </li>
-          <li class="navigation__item">
-            <a href="#services" id="services-link" class="navigation__link">Services</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#projects" id="projects-link" class="navigation__link">Projects</a>
-          </li>
-          <li class="navigation__item">
-            <a href="#contact-us" id="contact-us-link" class="navigation__link">Contact Us</a>
+          <li class="sidebar__social-link-li">
+            <a
+              href="https://www.instagram.com/rioguides.biz/"
+              target="_blank"
+              class="sidebar__social-link"
+              ><i class="fab fa-instagram"></i
+            ></a>
           </li>
         </ul>
-      </nav>
 
-      <div class="site-header__btn-container">
-        <a href="mailto:koen@rioguides.biz" class="btn btn--large open-modal">Get in Touch</a>
-      </div>
-
-      <div class="navigation__copyright">
-        <p>&copy; 2022. RioGuides.Biz. All Rights Reserved</p>
-      </div>
-    </div>
-    <!-- end of navigation -->
-  </div>
-  <!-- end of side navbar  -->
-
-  <!-- Site Header -->
-  <header class="site-header">
-    <div class="wrapper">
-      <!-- Site Logo -->
-      <div class="site-header__logo">
-        <div class="site-header__rg-logo">
-          <span class="site-header__rg-logo__rioguides site-header__rg-logo__part-1">RIO</span><span
-            class="site-header__rg-logo__rioguides site-header__rg-logo__part-2">GUIDES</span>
-          <div class="site-header__rg-logo__business">Business</div>
+        <div>
+          <p class="sidebar__year">&copy;2021</p>
         </div>
       </div>
-      <!-- End Site Logo -->
-      <div class="site-header__menu-icon">
-        <div class="site-header__menu-icon__middle"></div>
-      </div>
+      <!-- end of sidebar -->
 
-      <div class="site-header__menu-content">
-        <nav class="primary-nav primary-nav--pull-right">
-          <ul>
-            <li><a href="#home" id="home-link">Home</a></li>
-            <li><a href="#about-us" id="about-us-link">About Us</a></li>
-            <li><a href="#services" id="contact-link">Services</a></li>
-            <li><a href="#projects" id="projects-link">Projects</a></li>
-            <li><a href="#contact-us" id="projects-link">Contact</a></li>
+      <!-- navigation -->
+      <div class="navigation">
+        <div class="navigation__header">
+          <div class="site-header__rg-logo">
+            <span
+              class="
+                site-header__rg-logo__rioguides site-header__rg-logo__part-1
+              "
+              >RIO</span
+            ><span
+              class="
+                site-header__rg-logo__rioguides site-header__rg-logo__part-2
+              "
+              >GUIDES</span
+            >
+            <div class="site-header__rg-logo__business">Business</div>
+          </div>
+        </div>
+
+        <nav class="side-nav">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#home" id="home-link" class="navigation__link">home</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#about-us" id="about-us-link" class="navigation__link"
+                >About Us</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a href="#services" id="services-link" class="navigation__link"
+                >Services</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a href="#projects" id="projects-link" class="navigation__link"
+                >Projects</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a
+                href="#contact-us"
+                id="contact-us-link"
+                class="navigation__link"
+                >Contact Us</a
+              >
+            </li>
           </ul>
         </nav>
+
+        <div class="site-header__btn-container">
+          <a href="mailto:koen@rioguides.biz" class="btn btn--large open-modal"
+            >Get in Touch</a
+          >
+        </div>
+
+        <div class="navigation__copyright">
+          <p>&copy; 2022. RioGuides.Biz. All Rights Reserved</p>
+        </div>
       </div>
+      <!-- end of navigation -->
     </div>
-  </header>
-  <!-- End Site Header -->
+    <!-- end of side navbar  -->
 
-  <!-- Start Large Hero -->
-  <div id="home" class="large-hero" data-matching-link="#home-link">
-
-    <picture>
-      <source srcset="assets/images/blackboard_lamp_1920x980.jpg 1920w, assets/images/blackboard_lamp_3840x1960.jpg 3840w"
-        media="(min-width: 1380px)">
-      <source srcset="assets/images/blackboard_lamp_1303x733.jpg 1380w, assets/images/blackboard_lamp_2604x1466.jpg 2760w"
-        media="(min-width: 990px)">
-      <source srcset="assets/images/blackboard_lamp_990x900.jpg 990w, assets/images/blackboard_lamp_1980x1800.jpg 1980w"
-        media="(min-width: 640px)">
-      <img srcset="assets/images/blackboard_lamp_640x654.jpg 640w, assets/images/blackboard_lamp_1280x1308.jpg 1280w"
-        alt="Blackboard with Ideas - Lamp in the middle" class="large-hero__image">
-    </picture>
-
-    <div class="large-hero__text-content">
+    <!-- Site Header -->
+    <header class="site-header">
       <div class="wrapper">
-        <h1 class="large-hero__title">Web Solutions</h1>
-        <h2 class="large-hero__subtitle">Consultancy, Design, Development & Maintenance</h2>
-        <p class="large-hero__description">Thinking of a new website?</p>
-        <p class="large-hero__description">You want to start a store online?</p>
-        <p class="large-hero__description">You want to update your existing website?</p>
-        <p class="large-hero__description">You do not know where to start?</p>
-        <p class="large-hero__description">You need a <strong>guide</strong> through this jungle?</p>
-        <p><a href="mailto:koen@rioguides.biz" class="btn btn--hero btn--large open-modal">Let us get started on your project!</a></p>
-      </div>
-    </div>
-  </div>
-  <!-- End Large Hero --> 
-
-  <!-- start of About Section -->
-  <div id="about-us" class="about-us page-section" data-matching-link="#about-us-link">
-    <div class="wrapper">
-      <h2 class="about-us about-us__centered about-us__light about-us__t-margin-large">You tell us your dreams and
-        <strong>we will make it happen!</strong></h2>
-      <h3
-        class="about-us about-us__centered about-us__navyblue about-us__small about-us__light about-us__b-margin-large">
-        Ever since, I&rsquo;ve started working, I have kept one goal above all: <strong>customer satisfaction.</strong></h3>
-
-      <div class="row row__gutters">
-        <div class="row__medium-4 row__medium-4--larger row__b-margin-until-medium">
-          <picture>
-            <source sizes="404px" data-srcset="assets/images/koenvdz_aboutme_404x531.jpg 404w, assets/images/koenvdz_aboutme_808x1062.jpg 808w" media="(min-width: 1020px)">
-            <source sizes="320px" data-srcset="assets/images/koenvdz_aboutme_382x870.jpg 382w, assets/images/koenvdz_aboutme_764x1740.jpg 764w" media="(min-width: 800px)">
-            <img class="lazyload" data-srcset="assets/images/koenvdz_aboutme_800x491.jpg 800w, assets/images/koenvdz_aboutme_1600x982.jpg 1600w" alt="Our founder, Koenraad Vandezande">
-          </picture>
-        </div>
-        <div class="row__medium-8 row__medium-8--smaller">
-          <div class="generic-content-container">
-            <h2 class="about-us about-us__no-margin">Here&rsquo;s how I got started&hellip;</h2>
-            <p>I began my career as a junior programmer coding in Cobol, indeed, I started a long time ago! I got the chance to work on many different platforms and learn about new technologies. But I also discovered that one of my strong qualities was to listen to the user&rsquo;s needs, analyze their requests and turn them into the solutions they needed.</p>
-            <p>After a twenty-year long career in Information technology, I needed a new challenge in life, and I went back to school to become a local guide in Rio de Janeiro.  As I grew into this job, I soon discovered I loved leading people through different places and making their travel experience even better through my knowledge and experience. I traveled through the bigger part of South America and Western Europe.</p>
-            <p>Combining my experience and skills from my two past careers, listening to customers&rsquo; needs combined with my vast knowledge of information technology is assuring me to get the right solution for my clients.</p>
+        <!-- Site Logo -->
+        <div class="site-header__logo">
+          <div class="site-header__rg-logo">
+            <span
+              class="
+                site-header__rg-logo__rioguides site-header__rg-logo__part-1
+              "
+              >RIO</span
+            ><span
+              class="
+                site-header__rg-logo__rioguides site-header__rg-logo__part-2
+              "
+              >GUIDES</span
+            >
+            <div class="site-header__rg-logo__business">Business</div>
           </div>
+        </div>
+        <!-- End Site Logo -->
+        <div class="site-header__menu-icon">
+          <div class="site-header__menu-icon__middle"></div>
+        </div>
+
+        <div class="site-header__menu-content">
+          <nav class="primary-nav primary-nav--pull-right">
+            <ul>
+              <li><a href="#home" id="home-link">Home</a></li>
+              <li><a href="#about-us" id="about-us-link">About Us</a></li>
+              <li><a href="#services" id="contact-link">Services</a></li>
+              <li><a href="#projects" id="projects-link">Projects</a></li>
+              <li><a href="#contact-us" id="projects-link">Contact</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- End of About Section -->
+    </header>
+    <!-- End Site Header -->
 
-  <!-- Start of Services Section -->
-  <div id="services" class="page-section page-section__blue" data-matching-link="#services-link">
-    <div class="wrapper">
-      <h2 class="section-title section-title__m60"><i class="fas fa-check-square section-title__icon"></i> Our
-        <strong>Services</strong></h2>
+    <!-- Start Large Hero -->
+    <div id="home" class="large-hero" data-matching-link="#home-link">
+      <picture>
+        <source
+          srcset="
+            assets/images/blackboard_lamp_1920x980.jpg  1920w,
+            assets/images/blackboard_lamp_3840x1960.jpg 3840w
+          "
+          media="(min-width: 1380px)"
+        />
+        <source
+          srcset="
+            assets/images/blackboard_lamp_1303x733.jpg  1380w,
+            assets/images/blackboard_lamp_2604x1466.jpg 2760w
+          "
+          media="(min-width: 990px)"
+        />
+        <source
+          srcset="
+            assets/images/blackboard_lamp_990x900.jpg    990w,
+            assets/images/blackboard_lamp_1980x1800.jpg 1980w
+          "
+          media="(min-width: 640px)"
+        />
+        <img
+          srcset="
+            assets/images/blackboard_lamp_640x654.jpg    640w,
+            assets/images/blackboard_lamp_1280x1308.jpg 1280w
+          "
+          alt="Blackboard with Ideas - Lamp in the middle"
+          class="large-hero__image"
+        />
+      </picture>
 
-      <div class="row row__gutters-large generic-content-container">
-
-        <div class="row__medium-6">
-
-          <div class="services">
-            <i class="fas fa-lightbulb-on services__icon"></i>
-            <h3 class="services__title">Consultancy</h3>
-            <p class="services__content">A successful project connects deeply with your target audience and furthers your business goals. After our analysis of your needs, we will be able to present you the right solution for your project.</p>
-          </div>
-
-          <div class="services">
-            <i class="fas fa-pencil-paintbrush services__icon"></i>
-            <h3 class="services__title">Web Design</h3>
-            <p class="services__content">Whether your website needs a refresh to the latest web technologies or must be build up from scratch, we can help you to get the look and user experience to boost your online presence.</p>
-          </div>
+      <div class="large-hero__text-content">
+        <div class="wrapper">
+          <h1 class="large-hero__title">Web Solutions</h1>
+          <h2 class="large-hero__subtitle">
+            Consultancy, Design, Development & Maintenance
+          </h2>
+          <p class="large-hero__description">Thinking of a new website?</p>
+          <p class="large-hero__description">
+            You want to start a store online?
+          </p>
+          <p class="large-hero__description">
+            You want to update your existing website?
+          </p>
+          <p class="large-hero__description">You do not know where to start?</p>
+          <p class="large-hero__description">
+            You need a <strong>guide</strong> through this jungle?
+          </p>
+          <p>
+            <a
+              href="mailto:koen@rioguides.biz"
+              class="btn btn--hero btn--large open-modal"
+              >Let us get started on your project!</a
+            >
+          </p>
         </div>
-
-        <div class="row__medium-6">
-          <div class="services">
-            <i class="fas fa-code services__icon"></i>
-            <h3 class="services__title">Website Development</h3>
-            <p class="services__content">Building your website, the latest technologies will be used. The result will be a website optimized for fast loading and a user-friendly user experience.</p>
-          </div>
-
-          <div class="services">
-            <i class="fas fa-server services__icon"></i>
-            <h3 class="services__title">Maintenance & Operations</h3>
-            <p class="services__content">Once a project is up and running, the job is not finished, we deliver ongoing support to your projects. We can assist you with a range of services such as hosting, scheduled maintenance and updates. But we also will be happy to assist you to learn how to do these tasks on your own. </p>
-          </div>
-        </div>
-
       </div>
     </div>
-  </div>
-  <!-- End of Services Section -->
+    <!-- End Large Hero -->
 
-  <!-- Projects Begin -->
-  <div id="projects" class="page-section page-section__no-b-padding-until-medium page-section__projects" data-matching-link="#projects-link">
-    <div class="wrapper wrapper--no-padding-until-large">
-      <h2 class="section-title section-title__blue section-title__m60"><i class="fas fa-browser section-title__icon  section-title__blue"></i> Some of our
-        <strong>Projects</strong></h2>
-
-      <div class="row row__gutters row__equal-height-at-large row__gutters-small row__t-padding generic-content-container">
-        <!-- OAT ESA Begin -->
-        <div class="row__large-4">
-          <div class="projects">
-            <div class="projects__photo">
-              <img class="lazyload" sizes="900px" data-srcset="assets/images/oat_website_desktop_650x465.jpg 650w, assets/images/oat_website_desktop_1380x930.jpg 1380w" alt="Brazil Virtual Tour Website">
-            </div>
-            <a href="https://oat-exploring-south-america.com/" target="_blank" rel="noopener noreferrer"><h3 class="projects__title">OAT Exploring South America</h3></a>
-            <h4 class="projects__subtitle">Travel Information Blog</h4>
-            <p class="projects__info">&ldquo;Overseas Adventure Travel offers trips all over the world and encourages their local branches to put up blogs, so the travelers can find information they need from the local trip leaders they will be traveling with.&rdquo;</p>
-            <hr>
-            <p class="projects__functions">Consultancy, Web Design, Web Development, hosting, maintenance.</p>
-            <div class="projects__tools">
-              <i class="fab fa-joomla"></i>
-              <i class="fab fa-html5"></i>
-              <i class="fab fa-css3-alt"></i>
-              <i class="fab fa-js"></i>
-              <i class="fab fa-php"></i>
-            </div>
-          </div>
-        </div>
-        <!-- OAT ESA End -->
-        <!-- Brazil Virtual Tour Begin -->
-        <div class="row__large-4 row__projects">
-          <div class="projects">
-            <div class="projects__photo">
-              <img class="lazyload" sizes="900px" data-srcset="assets/images/bvt_website_desktop_690x465.jpg 690w, assets/images/bvt_website_desktop_1380x930.jpg 1380w" alt="Brazil Virtual Tour Website">
-            </div>
-            <a href="https://brazilvirtualtour.com.br/" target="_blank" rel="noopener noreferrer"><h3 class="projects__title">Brazil Virtual Tour</h3></a>
-            <h4 class="projects__subtitle">Web Store</h4>
-            <p class="projects__info">&ldquo;Neyla and Gisela needed an upgrade of their wordpress website, turning it into a webstore to start selling virtual tours. With the limited budget we managed to have a solution that suits their needs.&rdquo;</p>
-            <hr>
-            <p class="projects__functions">Consultancy, Web Design, Web Development, hosting, maintenance.</p>
-            <div class="projects__tools">
-              <i class="fab fa-wordpress"></i>
-              <i class="fab fa-html5"></i>
-              <i class="fab fa-css3-alt"></i>
-              <i class="fab fa-js"></i>
-              <i class="fab fa-php"></i>
-            </div>
-          </div>
-        </div>
-        <!-- Brazil Virtual Tour End -->
-        <!-- Begin -->
-        <div class="row__large-4 row__projects">
-          <div class="projects">
-            <div class="projects__photo">
-              <img class="lazyload" sizes="900px" data-srcset="assets/images/tgg_website_690x465.jpg 690w, assets/images/tgg_website_1380x930.jpg 1380w" alt="Brazil Virtual Tour Website">
-            </div>
-            <a href="https://www.tourguidegus.com/" target="_blank" rel="noopener noreferrer"><h3 class="projects__title">Tour Guide Gus</h3></a>
-            <h4 class="projects__subtitle">Web Presence</h4>
-            <p class="projects__info">&ldquo;Augusto Guimarães is a local tour guide in Rio de Janeiro. He already had a website to promote his services, but he urgently needed an upgrade of his old web pages.&rdquo;</p>
-            <hr>
-            <p class="projects__functions">Consultancy, Web Design, Web Development, hosting, maintenance.</p>
-            <div class="projects__tools">
-              <i class="fab fa-node"></i>
-              <i class="fab fa-html5"></i>
-              <i class="fab fa-css3-alt"></i>
-              <i class="fab fa-sass"></i>
-              <i class="fab fa-js"></i>
-              <i class="fab fa-php"></i>
-            </div>
-          </div>
-        </div>
-        <!-- End -->
-      </div>
-    </div>
-  </div>
-  <!-- Projects End -->
-  <!-- start of Contact Us Section -->
-  <div id="contact-us" class="contact-us page-section" data-matching-link="#contact-us-link">
-    <div class="wrapper">
-      <h2 class="section-title section-title__blue section-title__m60"><i class="fas far fa-envelope-open section-title__icon section-title__blue"></i> <strong>Contact</strong> Us</h2>
+    <!-- start of About Section -->
+    <div
+      id="about-us"
+      class="about-us page-section"
+      data-matching-link="#about-us-link"
+    >
       <div class="wrapper">
-        <p class="contact-us__description">Please drop us a line and will get back to you as soon as we can.</p>
+        <h2
+          class="
+            about-us about-us__centered about-us__light about-us__t-margin-large
+          "
+        >
+          You tell us your dreams and <strong>we will make it happen!</strong>
+        </h2>
+        <h3
+          class="
+            about-us
+            about-us__centered
+            about-us__navyblue
+            about-us__small
+            about-us__light
+            about-us__b-margin-large
+          "
+        >
+          Ever since, I&rsquo;ve started working, I have kept one goal above
+          all: <strong>customer satisfaction.</strong>
+        </h3>
+
+        <div class="row row__gutters">
+          <div
+            class="
+              row__medium-4 row__medium-4--larger row__b-margin-until-medium
+            "
+          >
+            <picture>
+              <source
+                sizes="404px"
+                data-srcset="assets/images/koenvdz_aboutme_404x531.jpg 404w, assets/images/koenvdz_aboutme_808x1062.jpg 808w"
+                media="(min-width: 1020px)"
+              />
+              <source
+                sizes="320px"
+                data-srcset="assets/images/koenvdz_aboutme_382x870.jpg 382w, assets/images/koenvdz_aboutme_764x1740.jpg 764w"
+                media="(min-width: 800px)"
+              />
+              <img
+                class="lazyload"
+                data-srcset="assets/images/koenvdz_aboutme_800x491.jpg 800w, assets/images/koenvdz_aboutme_1600x982.jpg 1600w"
+                alt="Our founder, Koenraad Vandezande"
+              />
+            </picture>
+          </div>
+          <div class="row__medium-8 row__medium-8--smaller">
+            <div class="generic-content-container">
+              <h2 class="about-us about-us__no-margin">
+                Here&rsquo;s how I got started&hellip;
+              </h2>
+              <p>
+                I began my career as a junior programmer coding in Cobol,
+                indeed, I started a long time ago! I got the chance to work on
+                many different platforms and learn about new technologies. But I
+                also discovered that one of my strong qualities was to listen to
+                the user&rsquo;s needs, analyze their requests and turn them
+                into the solutions they needed.
+              </p>
+              <p>
+                After a twenty-year long career in Information technology, I
+                needed a new challenge in life, and I went back to school to
+                become a local guide in Rio de Janeiro. As I grew into this job,
+                I soon discovered I loved leading people through different
+                places and making their travel experience even better through my
+                knowledge and experience. I traveled through the bigger part of
+                South America and Western Europe.
+              </p>
+              <p>
+                Combining my experience and skills from my two past careers,
+                listening to customers&rsquo; needs combined with my vast
+                knowledge of information technology is assuring me to get the
+                right solution for my clients.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+    <!-- End of About Section -->
 
-      <div class="social-icons">
-        <a href="mailto:koen@rioguides.biz" class="social-icons__icon-link"><i class="fal fa-envelope social-icons__icon"></i></a>
-        <a href="https://wa.me/5521985906685" class="social-icons__icon-link"><i class="fab fa-whatsapp social-icons__icon"></i></a>
+    <!-- Start of Services Section -->
+    <div
+      id="services"
+      class="page-section page-section__blue"
+      data-matching-link="#services-link"
+    >
+      <div class="wrapper">
+        <h2 class="section-title section-title__m60">
+          <i class="fas fa-check-square section-title__icon"></i> Our
+          <strong>Services</strong>
+        </h2>
+
+        <div class="row row__gutters-large generic-content-container">
+          <div class="row__medium-6">
+            <div class="services">
+              <i class="fas fa-lightbulb-on services__icon"></i>
+              <h3 class="services__title">Consultancy</h3>
+              <p class="services__content">
+                A successful project connects deeply with your target audience
+                and furthers your business goals. After our analysis of your
+                needs, we will be able to present you the right solution for
+                your project.
+              </p>
+            </div>
+
+            <div class="services">
+              <i class="fas fa-pencil-paintbrush services__icon"></i>
+              <h3 class="services__title">Web Design</h3>
+              <p class="services__content">
+                Whether your website needs a refresh to the latest web
+                technologies or must be build up from scratch, we can help you
+                to get the look and user experience to boost your online
+                presence.
+              </p>
+            </div>
+          </div>
+
+          <div class="row__medium-6">
+            <div class="services">
+              <i class="fas fa-code services__icon"></i>
+              <h3 class="services__title">Website Development</h3>
+              <p class="services__content">
+                Building your website, the latest technologies will be used. The
+                result will be a website optimized for fast loading and a
+                user-friendly user experience.
+              </p>
+            </div>
+
+            <div class="services">
+              <i class="fas fa-server services__icon"></i>
+              <h3 class="services__title">Maintenance & Operations</h3>
+              <p class="services__content">
+                Once a project is up and running, the job is not finished, we
+                deliver ongoing support to your projects. We can assist you with
+                a range of services such as hosting, scheduled maintenance and
+                updates. But we also will be happy to assist you to learn how to
+                do these tasks on your own.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-
     </div>
-  </div>
-  <!-- End of Contact Us Section -->
-  <footer class="site-footer">
-    <div class="wrapper">
-      <p><span class="site-footer__text">Copyrigh &copy; 2021 RioGuides Business. All rights reserved.</span>
+    <!-- End of Services Section -->
+
+    <!-- Projects Begin -->
+    <div
+      id="projects"
+      class="
+        page-section
+        page-section__no-b-padding-until-medium
+        page-section__projects
+      "
+      data-matching-link="#projects-link"
+    >
+      <div class="wrapper wrapper--no-padding-until-large">
+        <h2 class="section-title section-title__blue section-title__m60">
+          <i class="fas fa-browser section-title__icon section-title__blue"></i>
+          Some of our <strong>Projects</strong>
+        </h2>
+
+        <div
+          class="
+            row
+            row__gutters
+            row__equal-height-at-large
+            row__gutters-small
+            row__t-padding
+            generic-content-container
+          "
+        >
+          <!-- OAT ESA Begin -->
+          <div class="row__large-4">
+            <div class="projects">
+              <div class="projects__photo">
+                <img
+                  class="lazyload"
+                  sizes="900px"
+                  data-srcset="assets/images/oat_website_desktop_650x465.jpg 650w, assets/images/oat_website_desktop_1380x930.jpg 1380w"
+                  alt="Brazil Virtual Tour Website"
+                />
+              </div>
+              <a
+                href="https://oat-exploring-south-america.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><h3 class="projects__title">OAT Exploring South America</h3></a
+              >
+              <h4 class="projects__subtitle">Travel Information Blog</h4>
+              <p class="projects__info">
+                &ldquo;Overseas Adventure Travel offers trips all over the world
+                and encourages their local branches to put up blogs, so the
+                travelers can find information they need from the local trip
+                leaders they will be traveling with.&rdquo;
+              </p>
+              <hr />
+              <p class="projects__functions">
+                Consultancy, Web Design, Web Development, hosting, maintenance.
+              </p>
+              <div class="projects__tools">
+                <i class="fab fa-joomla"></i>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-php"></i>
+              </div>
+            </div>
+          </div>
+          <!-- OAT ESA End -->
+          <!-- Brazil Virtual Tour Begin -->
+          <div class="row__large-4 row__projects">
+            <div class="projects">
+              <div class="projects__photo">
+                <img
+                  class="lazyload"
+                  sizes="900px"
+                  data-srcset="assets/images/bvt_website_desktop_690x465.jpg 690w, assets/images/bvt_website_desktop_1380x930.jpg 1380w"
+                  alt="Brazil Virtual Tour Website"
+                />
+              </div>
+              <a
+                href="https://brazilvirtualtour.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><h3 class="projects__title">Brazil Virtual Tour</h3></a
+              >
+              <h4 class="projects__subtitle">Web Store</h4>
+              <p class="projects__info">
+                &ldquo;Neyla and Gisela needed an upgrade of their wordpress
+                website, turning it into a webstore to start selling virtual
+                tours. With the limited budget we managed to have a solution
+                that suits their needs.&rdquo;
+              </p>
+              <hr />
+              <p class="projects__functions">
+                Consultancy, Web Design, Web Development, hosting, maintenance.
+              </p>
+              <div class="projects__tools">
+                <i class="fab fa-wordpress"></i>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-php"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Brazil Virtual Tour End -->
+          <!-- Begin -->
+          <div class="row__large-4 row__projects">
+            <div class="projects">
+              <div class="projects__photo">
+                <img
+                  class="lazyload"
+                  sizes="900px"
+                  data-srcset="assets/images/tgg_website_690x465.jpg 690w, assets/images/tgg_website_1380x930.jpg 1380w"
+                  alt="Brazil Virtual Tour Website"
+                />
+              </div>
+              <a
+                href="https://www.tourguidegus.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><h3 class="projects__title">Tour Guide Gus</h3></a
+              >
+              <h4 class="projects__subtitle">Web Presence</h4>
+              <p class="projects__info">
+                &ldquo;Augusto Guimarães is a local tour guide in Rio de
+                Janeiro. He already had a website to promote his services, but
+                he urgently needed an upgrade of his old web pages.&rdquo;
+              </p>
+              <hr />
+              <p class="projects__functions">
+                Consultancy, Web Design, Web Development, hosting, maintenance.
+              </p>
+              <div class="projects__tools">
+                <i class="fab fa-node"></i>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-sass"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-php"></i>
+              </div>
+            </div>
+          </div>
+          <!-- End -->
+        </div>
+      </div>
     </div>
-  </footer>
+    <!-- Projects End -->
+    <!-- start of Contact Us Section -->
+    <div
+      id="contact-us"
+      class="contact-us page-section"
+      data-matching-link="#contact-us-link"
+    >
+      <div class="wrapper">
+        <h2 class="section-title section-title__blue section-title__m60">
+          <i
+            class="
+              fas
+              far
+              fa-envelope-open
+              section-title__icon section-title__blue
+            "
+          ></i>
+          <strong>Contact</strong> Us
+        </h2>
+        <div class="wrapper">
+          <p class="contact-us__description">
+            Please drop us a line and will get back to you as soon as we can.
+          </p>
+        </div>
 
-</body>
-
+        <div class="social-icons">
+          <a href="mailto:koen@rioguides.biz" class="social-icons__icon-link"
+            ><i class="fal fa-envelope social-icons__icon"></i
+          ></a>
+          <a href="https://wa.me/5521985906685" class="social-icons__icon-link"
+            ><i class="fab fa-whatsapp social-icons__icon"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!-- End of Contact Us Section -->
+    <footer class="site-footer">
+      <div class="wrapper">
+        <p>
+          <span class="site-footer__text"
+            >Copyrigh &copy; 2021 RioGuides Business. All rights reserved.</span
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
